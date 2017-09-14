@@ -1,0 +1,21 @@
+<?php
+
+function flot_charts_add_flot() {
+  /**
+   * Flot chart module
+   */
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/excanvas.min.js');
+  //drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.min.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.time.min.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.symbol.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.dashes.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.curvedlines.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.axislabels.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.resize.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.fillbetween.min.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.navigate.min.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.event.drag-2.0.min.js');
+  drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.mousewheel.js');
+  //drupal_add_js(drupal_get_path('module', 'flot_charts') . '/flot/jquery.flot.touch.js');
+}
